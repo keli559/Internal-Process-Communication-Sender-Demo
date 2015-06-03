@@ -12,4 +12,4 @@ Application:
 2. Find receiver by its app title "ReceiverMainForm" and its Class "TReceiverMainForm" (debug window: a pop-up window should show up with non-zero integers)
 3. Send message in COPYDATASTRUCT through WM_COPYDATA code to receiver
 
-This demo is written in C# Visual Studio 2015. 
+This demo is written in C# Visual Studio 2015, Console application. It only constructs the sender part, the receiver part was previously constructed to receive messages from other apps. 
